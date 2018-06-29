@@ -21,8 +21,9 @@ namespace SendGrid\Stats;
 class Stats
 {
     const DATE_FORMAT = 'Y-m-d';
-    const OPTIONS_SORT_DIRECTION = ['asc', 'desc'];
-    const OPTIONS_AGGREGATED_BY = ['day', 'week', 'month'];
+
+    private $optionsSortDirections = ['asc', 'desc'];
+    private $optionsAggregatedBy = ['day', 'week', 'month'];
 
     // @var string
     private $startDate;
@@ -50,7 +51,7 @@ class Stats
             $this->validateOptions(
                 'aggregatedBy',
                 $aggregatedBy,
-                self::OPTIONS_AGGREGATED_BY
+                $this->optionsAggregatedBy
             );
         }
         $this->startDate = $startDate;
@@ -134,7 +135,7 @@ class Stats
         $this->validateOptions(
             'sortByDirection',
             $sortByDirection,
-            self::OPTIONS_SORT_DIRECTION
+            $this->optionsSortDirections
         );
         $this->validateInteger('limit', $limit);
         $this->validateInteger('offset', $offset);
@@ -175,7 +176,7 @@ class Stats
         $this->validateOptions(
             'sortByDirection',
             $sortByDirection,
-            self::OPTIONS_SORT_DIRECTION
+            $this->optionsSortDirections
         );
         $this->validateInteger('limit', $limit);
         $this->validateInteger('offset', $offset);
