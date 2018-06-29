@@ -4,6 +4,9 @@
   "version": "7.0.0",
   "homepage": "http://github.com/sendgrid/sendgrid-php",
   "license": "MIT",
+  "repositories": [
+    { "type": "git", "url": "git@github.com:JoshG4M/php-http-client" }
+  ],
   "keywords": [
     "SendGrid",
     "sendgrid",
@@ -13,7 +16,7 @@
   ],
   "require": {
     "php": ">=5.4",
-    "sendgrid/php-http-client": "~3.9",
+    "gear4music/php-http-client": "dev-php-downgrade@dev",
     "ext-curl": "*",
     "ext-json": "*",
     "ext-mbstring": "*"
