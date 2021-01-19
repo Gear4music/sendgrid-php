@@ -4,14 +4,14 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "519af7dd2f39623b7577d4131aefc036",
+    "content-hash": "a5b561b5687558ced6dfd68570d9d195",
     "packages": [
         {
             "name": "gear4music/php-http-client",
             "version": "dev-php-downgrade",
             "source": {
                 "type": "git",
-                "url": "git@github.com:JoshG4M/php-http-client",
+                "url": "git@github.com:Gear4music/php-http-client",
                 "reference": "a6645480b96d44d1b6aac401e7fde86cebf8535e"
             },
             "require": {
@@ -509,6 +509,7 @@
             "keywords": [
                 "tokenizer"
             ],
+            "abandoned": true,
             "time": "2017-12-04T08:55:13+00:00"
         },
         {
@@ -637,6 +638,7 @@
                 "mock",
                 "xunit"
             ],
+            "abandoned": true,
             "time": "2015-10-02T06:51:40+00:00"
         },
         {

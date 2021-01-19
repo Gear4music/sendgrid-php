@@ -5,7 +5,7 @@
   "homepage": "http://github.com/sendgrid/sendgrid-php",
   "license": "MIT",
   "repositories": [
-    { "type": "git", "url": "git@github.com:JoshG4M/php-http-client" }
+    { "type": "git", "url": "git@github.com:Gear4music/php-http-client" }
   ],
   "keywords": [
     "SendGrid",
