@@ -5,7 +5,10 @@
   "homepage": "http://github.com/sendgrid/sendgrid-php",
   "license": "MIT",
   "repositories": [
-    { "type": "git", "url": "git@github.com:Gear4music/php-http-client" }
+    {
+      "type": "composer",
+      "url": "https://g4m:8Fq0GYevp4efCUK1u5ff5e5iQcvvHCWE@satis.g4mapp.com/repo"
+    }
   ],
   "keywords": [
     "SendGrid",
