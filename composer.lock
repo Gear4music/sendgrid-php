@@ -4,15 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a5b561b5687558ced6dfd68570d9d195",
+    "content-hash": "1db2a1775c7f66bb3741195f9aab9c09",
     "packages": [
         {
             "name": "gear4music/php-http-client",
             "version": "dev-php-downgrade",
             "source": {
                 "type": "git",
-                "url": "git@github.com:Gear4music/php-http-client",
+                "url": "https://github.com/Gear4music/php-http-client.git",
                 "reference": "a6645480b96d44d1b6aac401e7fde86cebf8535e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Gear4music/php-http-client/zipball/a6645480b96d44d1b6aac401e7fde86cebf8535e",
+                "reference": "a6645480b96d44d1b6aac401e7fde86cebf8535e",
+                "shasum": ""
             },
             "require": {
                 "php": ">=5.4"
@@ -54,6 +60,9 @@
                 "REST",
                 "SendGrid"
             ],
+            "support": {
+                "source": "https://github.com/Gear4music/php-http-client/tree/php-downgrade"
+            },
             "time": "2018-06-29T15:20:19+00:00"
         },
         {
@@ -1221,5 +1230,8 @@
         "ext-json": "*",
         "ext-mbstring": "*"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "platform-overrides": {
+        "php": "5.5.34"
+    }
 }
