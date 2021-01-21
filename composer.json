@@ -48,5 +48,11 @@
     "psr-4": {
       "SendGrid\\Tests\\": "test/"
     }
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "platform": {
+      "php": "5.5.34"
+    }
   }
 }
