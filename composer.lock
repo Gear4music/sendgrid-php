@@ -1,18 +1,24 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "eff743bd91c1387aeee38c65aba609b5",
+    "content-hash": "1db2a1775c7f66bb3741195f9aab9c09",
     "packages": [
         {
             "name": "gear4music/php-http-client",
             "version": "dev-php-downgrade",
             "source": {
                 "type": "git",
-                "url": "git@github.com:JoshG4M/php-http-client",
+                "url": "https://github.com/Gear4music/php-http-client.git",
                 "reference": "a6645480b96d44d1b6aac401e7fde86cebf8535e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Gear4music/php-http-client/zipball/a6645480b96d44d1b6aac401e7fde86cebf8535e",
+                "reference": "a6645480b96d44d1b6aac401e7fde86cebf8535e",
+                "shasum": ""
             },
             "require": {
                 "php": ">=5.4"
@@ -54,7 +60,49 @@
                 "REST",
                 "SendGrid"
             ],
+            "support": {
+                "source": "https://github.com/Gear4music/php-http-client/tree/php-downgrade"
+            },
             "time": "2018-06-29T15:20:19+00:00"
+        },
+        {
+            "name": "starkbank/ecdsa",
+            "version": "0.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/starkbank/ecdsa-php.git",
+                "reference": "9369d35ed9019321adb4eb9fd3be21357d527c74"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/starkbank/ecdsa-php/zipball/9369d35ed9019321adb4eb9fd3be21357d527c74",
+                "reference": "9369d35ed9019321adb4eb9fd3be21357d527c74",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/ellipticcurve.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "StarkBank",
+                    "email": "developers@starkbank.com",
+                    "homepage": "https://starkbank.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "fast openSSL-compatible implementation of the Elliptic Curve Digital Signature Algorithm (ECDSA)",
+            "homepage": "https://github.com/starkbank/ecdsa-php",
+            "time": "2020-05-15T15:46:20+00:00"
         }
     ],
     "packages-dev": [
@@ -470,6 +518,7 @@
             "keywords": [
                 "tokenizer"
             ],
+            "abandoned": true,
             "time": "2017-12-04T08:55:13+00:00"
         },
         {
@@ -598,6 +647,7 @@
                 "mock",
                 "xunit"
             ],
+            "abandoned": true,
             "time": "2015-10-02T06:51:40+00:00"
         },
         {
@@ -1180,5 +1230,8 @@
         "ext-json": "*",
         "ext-mbstring": "*"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "platform-overrides": {
+        "php": "5.5.34"
+    }
 }

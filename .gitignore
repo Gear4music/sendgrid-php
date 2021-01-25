@@ -14,5 +14,4 @@ test/prism/*
 .vscode
 prism*
 temp.php
-example*.php
 TODO.txt
